@@ -1,0 +1,44 @@
+1. Implement a class for a to-do list that allows users to add and remove tasks, mark tasks as complete, and view all tasks or only incomplete tasks.
+
+2. You are given an array of temperatures on a particular day. You have to tell, after how many days the temperature is increased from every day.
+
+    arr = [10, 4, 11, 15, 13,12, 11, 17]
+
+    ans = [2, 1, 1, 4, 3, 2, 1, -1]
+
+3. A cab service offers three types of passes. 1D, 7D, 30D. A T days pass can be used for a continuous
+duration only. Consider the days of the year being labeled sequentially from 1 to 365. Travelling is
+required only on some selected days of the year(input). Given the cost of different passes and the
+days on which travel is required, Calculate the minimum amount using which we can travel on all these days.
+Input: days = [1,4,6,7,8,20], costs = [2,7,15] output= 11
+
+4.// Koko loves to eat bananas. There are N piles of bananas, the i-th pile has piles[i] bananas. The guards have gone and will come back in H hours.
+// Koko can decide her bananas-per-hour eating speed of K. Each hour, she chooses some pile of bananas, and eats K bananas from that pile.
+//  If the pile has less than K bananas, she eats all of them instead, and won't eat any more bananas during this hour.
+// Koko likes to eat slowly but still wants to finish eating all the bananas before the guards come back.
+// Return the minimum integer K such that she can eat all the bananas within H hours.
+
+
+
+// N piles - 1 - 1, 2 -2
+// H - Hrs
+// K -
+// piles = [3,6,7,11], H = 8
+// // 3
+
+4.  You have an E-com site and there are product getting sold whenever a product get sold an event gets generated it looks like this:
+ Sold Product Events {eventId: "abcd36239389", productId: 123, timeStamp: "20211208 00:00:00"}
+ You need to find At any point in time, give me the top "N" sold products.
+ For example :
+ Events:
+ T1 -> 123
+ T2 -> 456
+ T3 -> 456
+ T4 -> 786
+ T5 -> 123
+ T6 -> 456
+ Output
+ topN(1) -> 456
+ topN(2) -> 456, 123
+
+//Discuss the approach.
